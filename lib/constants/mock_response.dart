@@ -164,7 +164,7 @@ class MockResponse {
             {"buttonName": "Relaxed", "buttonIndex": 2},
             {"buttonName": "Bored", "buttonIndex": 3},
             {"buttonName": "Grateful", "buttonIndex": 4},
-            {"buttonName": "Worried", "buttonIndex": 4},
+            {"buttonName": "Worried", "buttonIndex": 5},
             {"buttonName": "Afraid", "buttonIndex": 6},
             {"buttonName": "Unsure", "buttonIndex": 7}
           ]

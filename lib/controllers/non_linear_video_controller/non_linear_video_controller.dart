@@ -54,6 +54,7 @@ class NonLinearVideoController extends ChangeNotifier {
         } else {
           if (node.nextNode != null) {
             load(node.nextNode!);
+            timer.cancel();
           }
         }
       } else {
