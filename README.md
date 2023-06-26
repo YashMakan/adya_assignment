@@ -25,7 +25,17 @@ Besides adding a button grid, I have also implemented the logic for textfield. T
 ### App Installation (.apk)
 The application is hosted on the same github repository as of the videos. The apk can be installed by visiting [here](https://github.com/YashMakan/adya_assignment_videos/raw/master/app.apk).
 
+### Installation
+- The project is developed using `windows 10` with Flutter 3.7.6. This flutter version can be download from [here](https://docs.flutter.dev/get-started/install).
+- Using`git clone` the project can be cloned in the system.
+- After cloning, run flutter pub get to get the project dependencies.
+- After getting dependencies, the project can run by `flutter run` .
+PS: I have used Android Studio IDE. If you face any difficulties while installing or any other process, then please let me know.
+
+### State Management
+The project uses `provider` state management to manage the state the application. The class `NonLinearVideoController` is used where all the necessary information like currentVideoNode etc is stored.
 
 ## Authors
 
 - [@YashMakan](https://www.github.com/YashMakan)
+
