@@ -11,6 +11,7 @@ Design and implement a non-linear video session system using Flutter framework t
 https://app.adya.care/user/i
 
 ### Process
+![Process](https://github.com/YashMakan/adya_assignment_videos/blob/master/Screenshot%202023-06-26%20211618.png?raw=true)
 - Used ChatGPT for the assignment video script.
 - Using pyttsx3 package in package, generated audio files from the script.
 - Merge the audio Files with a soothing nature video using online tool.
@@ -34,6 +35,10 @@ PS: I have used Android Studio IDE. If you face any difficulties while installin
 
 ### State Management
 The project uses `provider` state management to manage the state the application. The class `NonLinearVideoController` is used where all the necessary information like currentVideoNode etc is stored.
+
+### Folder Structure/ Project Architecture
+The project follows MVC pattern which is ideal for small-mid level projects. The MVC(Model View Controller) is implemented by separating the models, presentation layer and the logic layer.
+![Project Structure](https://github.com/YashMakan/adya_assignment_videos/blob/master/Screenshot%202023-06-27%20001803.png?raw=true)
 
 ## Authors
 
